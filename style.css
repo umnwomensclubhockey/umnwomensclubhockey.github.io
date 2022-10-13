@@ -1,0 +1,490 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header img {
+    float: left;
+    width: auto;
+    height: 80px;
+}
+
+.header {
+    padding-bottom: 50px;
+}
+
+.header h1 {
+    color: maroon;
+    position: relative;
+    top: 25px;
+    left: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-right {
+    float: right;
+    padding-right: 10px;
+    top: 100px;
+}
+
+
+.nav-items {
+    color: black;
+    margin-right: 20px;
+}
+.nav-items:hover {
+    color: lightgrey;
+}
+
+.active {
+    background: red;
+}
+
+.hr-top { 
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    border-style: solid;
+}
+
+.hr-bottom { 
+    display: block;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    border-style: solid;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 1%;
+    width: 100%;
+}
+
+.officer-link {
+    display: block;
+    text-align: center;
+    margin: 40px;
+    font-size: x-large;
+}
+.meet-officers {
+    background: #E6E6E3;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+.meet-officers:hover {
+    background: maroon;
+    color: white;
+}
+
+
+.bottom-separator {
+    display: block;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    border-style: solid;
+    color: maroon;
+}
+
+.roster-bottom-line {
+    display: block;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    border-style: solid;
+    color: maroon;
+}
+
+#social-media{
+    text-align:center;
+    margin-bottom: 20px;
+}
+
+#social-media img {
+    height: auto;
+    width: 3%;
+    margin-left: 15px;
+}
+
+#copyright-container {
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+#copyright-container img {
+    height: auto;
+    width: 5%;
+}
+
+#bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.roster-member {
+    border: 2px solid lightgrey;
+    border-radius: 20px;
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.roster-member img {
+    height: 60px;
+    width: auto;
+    float: left;
+}
+
+.roster-left-text {
+    position: relative;
+    left: 20px;
+}
+
+.mission-statement {
+    margin: 10px;
+    text-align:  center;
+    padding: 10px;
+    background: #E6E6E3;
+    border-radius: 10px;
+}
+.mission-header {
+    font-weight: 1000;
+    font-size: xx-large;
+    text-decoration: underline;
+}
+.mission-text {
+    margin: 20px;
+    font-size: x-large;
+}
+
+
+.desc {
+    margin: 50px;
+    font-size: large;
+}
+
+
+/*
+schedule page styling
+*/
+
+.scorecard {
+    height: 250px;
+    border: 2px solid maroon;
+    border-radius: 5px;
+    margin: 10px;
+    margin-bottom: 30px;
+    background: maroon;
+    color: white;
+    text-align: center;
+    font-size: 200%;
+    font-weight: 600;
+    padding-top: 75px;
+}
+
+
+
+/* lighter background */
+.schedule-block-1 {
+    border: 2px solid #E6E6E3;
+    border-radius: 10px;
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background: #E6E6E3;
+}
+
+.schedule-block-1 img {
+    height: 70px;
+    width: auto;
+    float: left;
+    padding-top: 10px;
+}
+
+.schedule-left-text {
+    position: relative;
+    left: 20px;
+}
+
+/* lighter background */
+.schedule-left-text .sched-right-location {
+    color: black;
+}
+/* darker background */
+.schedule-left-text .sched-right-location-2 {
+    color: black;
+}
+
+/* darker background */
+.schedule-block-2 {
+    border: 2px solid #BFBFBD;
+    border-radius: 10px;
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background: #BFBFBD;
+}
+
+.schedule-block-2 img {
+    height: 70px;
+    width: auto;
+    float: left;
+    padding-top: 10px;
+}
+
+
+/*
+    Contact page styling
+*/
+
+.contact-card {
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 2px solid #E6E6E3;
+    border-radius: 20px;
+    background: #E6E6E3;
+
+}
+.contact-card img {
+    height: auto;
+    width: 20%;
+    float: left;
+    padding-bottom: 20px;
+}
+.contact-rank {
+    position: relative;
+    left: 20px;
+    padding-top: 15px;
+}
+.contact-name {
+    position: relative;
+    left: 20px;
+}
+
+.email {
+    margin-left: 40px;
+}
+.email a {
+    text-decoration: none;
+    color: maroon;
+}
+.email a:hover {
+    color: gold;
+}
+
+.form {
+    margin-left: 40px;
+    margin-top: 30px;
+}
+.form a {
+    color: maroon;
+}
+.form a:hover {
+    color: gold;
+}
+
+.pres-vp {
+    display: inline-block;
+}
+.email-form {
+    display: inline-block;
+    margin: 10px;
+}
+
+
+/*
+    About page styling
+*/
+.about-header {
+    width: 100%;
+    border-top: 2px solid #E6E6E3;
+    border-bottom: 2px solid #E6E6E3;
+    background: #E6E6E3;
+    color: maroon;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+.about-bullet-list {
+    list-style-type: disc;
+    margin: 30px;
+    margin-left: 50px;
+    padding: 10px;
+    font-size: large;
+}
+.about-bullet-list li {
+    padding: 10px;
+}
+.facility-location {
+    margin: 10px;
+    text-decoration: underline;
+    font-size: x-large;
+}
+.facility-p {
+    margin: 30px;
+    padding: 5px;
+    font-size: large;
+}
+
+
+.ridder-img {
+    width: 100%;
+    height: auto;
+}
+.recwell-img {
+    width: 100%;
+    height: auto;
+}
+
+.ACHA-link {
+    color: maroon;
+}
+.ACHA-link:hover {
+    color: lightgrey;
+}
+
+
+/*
+    Officers page styling
+*/
+
+.contact-header {
+    text-align: center;
+    margin: 20px;
+}
+.officer-contact-link {
+    font-size: larger; 
+    padding: 4px;
+    color: maroon;
+}
+.officer-contact-link:hover {
+    background: #E6E6E3;
+    border-radius: 15px;
+}
+.officer-header {
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    padding: 10px;
+    background: maroon;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.officer-card {
+    padding: 10px;
+}
+.officer-card img {
+    width: 100px;
+    height: auto;
+    float: left;
+    margin-left: 35%;
+    padding: 10px;
+    margin-right: 20px;
+
+}
+.officer-role {
+    padding: 10px;
+    position: relative;
+}
+.officer-name {
+    font-size: x-large;
+    font-weight: 400;
+    padding: 10px;
+    position: relative;
+}
+
+
+
+
+
+/*
+carousel styling
+*/
+
+.mySlides {
+    width: 25%;
+    margin: auto;
+    display: block;
+    padding: 20px;
+}
+.w3-content {
+    background: maroon;
+    margin: 5px;
+    border-radius: 10px;
+    height: 390px;
+    justify-content: center;
+}
+
+
+
+#carousel-button-left {
+    background-color: white;
+    border: none;
+    color: maroon;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 16px;
+    border-radius: 10px;
+    float: left;
+}
+#carousel-button-left:hover {
+    background: gold;
+}
+
+#carousel-button-right {
+    background-color: white;
+    border: none;
+    color: maroon;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    /* display: inline-block; */
+    font-size: 16px;
+    border-radius: 10px;
+    float: right;
+
+}
+#carousel-button-right:hover {
+    background: gold;
+}
+
