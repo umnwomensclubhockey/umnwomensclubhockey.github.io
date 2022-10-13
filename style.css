@@ -12,14 +12,15 @@
 }
 
 .header {
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 
-.header h1 {
+.headingName {
     color: maroon;
     position: relative;
-    top: 25px;
+    top: 20px;
     left: 10px;
+    font-size: 46px;
 }
 
 a {
@@ -30,12 +31,15 @@ a {
     float: right;
     padding-right: 10px;
     top: 100px;
+    align-items: center;
 }
 
 
 .nav-items {
     color: black;
     margin-right: 20px;
+    font-weight: 1000;
+    font-size: 20px;
 }
 .nav-items:hover {
     color: lightgrey;
@@ -47,23 +51,23 @@ a {
 
 .hr-top { 
     display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
+    margin-top: 5px;
+    margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
     border-style: inset;
-    border-width: 1px;
+    border-width: 1.5px;
     border-style: solid;
 }
 
 .hr-bottom { 
     display: block;
-    margin-top: 2em;
-    margin-bottom: 1em;
+    margin-top: 40px;
+    margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
     border-style: inset;
-    border-width: 1px;
+    border-width: 1.5px;
     border-style: solid;
 }
 
@@ -505,6 +509,7 @@ carousel styling
 
 #slider {
     overflow: hidden;
+    margin-bottom: 50px;
 }
 #slider figure {
     position: relative;
