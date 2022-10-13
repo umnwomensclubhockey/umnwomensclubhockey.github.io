@@ -439,18 +439,30 @@ schedule page styling
 carousel styling
 */
 
-.mySlides {
+/* .mySlides {
     width: 25%;
     margin: auto;
     display: block;
     padding: 20px;
+} */
+
+.mySlides {
+    position:absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
+
 .w3-content {
     background: maroon;
     margin: 5px;
     border-radius: 10px;
-    height: 390px;
+    height: 200px;
     justify-content: center;
+
+    position: relative;
+    overflow: hidden;
 }
 
 
@@ -488,3 +500,50 @@ carousel styling
     background: gold;
 }
 
+
+
+
+#slider {
+    overflow: hidden;
+}
+#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+#slider figure img {
+    width: 20%;
+    float: left;
+}
+
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+    100% {
+        left: -400%;
+    }
+}
