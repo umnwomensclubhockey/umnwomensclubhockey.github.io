@@ -303,6 +303,16 @@ schedule page styling
     position: relative;
     left: 20px;
 }
+.contact-email {
+    position: relative;
+    left: 20px;
+    color: maroon;
+}
+.contact-email:hover {
+    color: gold;
+}
+
+
 
 .email {
     margin-left: 40px;
@@ -326,12 +336,20 @@ schedule page styling
     color: gold;
 }
 
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+}
+
 .pres-vp {
     display: inline-block;
+    margin-bottom: 50px;
 }
 .email-form {
     display: inline-block;
     margin: 10px;
+
 }
 
 
@@ -557,4 +575,28 @@ carousel styling
     100% {
         left: -400%;
     }
+}
+
+
+.r-1 {
+    position: relative;
+    left: 20px;
+    color:maroon; 
+    padding-top:10px
+}
+.r-2 {
+    position: relative;
+    left: 20px;
+    color:maroon; 
+}
+.r-s1 {
+    color: grey;
+}
+.r-s2 {
+    color: black;
+}
+.r-s3 {
+    color:grey; 
+    float:right; 
+    padding-right: 20px;
 }
