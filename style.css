@@ -131,7 +131,6 @@ ul {
     text-align:center;
     margin-bottom: 20px;
 }
-
 #social-media img {
     height: auto;
     width: 3%;
@@ -204,6 +203,13 @@ ul {
 schedule page styling
 */
 
+
+.scorecard-numbers {
+    vertical-align: middle; 
+    font-size: 250%; 
+    margin: 15px;  
+}
+
 .scorecard {
     height: 250px;
     border: 2px solid maroon;
@@ -216,6 +222,19 @@ schedule page styling
     font-size: 200%;
     font-weight: 600;
     padding-top: 75px;
+}
+
+.player-stats {
+    text-align: center;
+    margin: 20px;
+}
+.player-stats a {
+    color: maroon;
+    font-size: x-large;
+    text-decoration: underline;
+}
+.player-stats a:hover {
+    color: gold;
 }
 
 
