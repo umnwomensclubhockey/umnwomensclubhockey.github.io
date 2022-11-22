@@ -87,8 +87,9 @@ ul {
 .officer-link {
     display: block;
     text-align: center;
-    margin: 40px;
+    margin: 50px;
     font-size: x-large;
+    margin-top: 100px;
 }
 .meet-officers {
     background: #E6E6E3;
@@ -197,6 +198,39 @@ ul {
     margin: 50px;
     font-size: large;
 }
+#desc-1 {
+    font-weight: 600;
+}
+
+
+.important-info {
+    margin: 50px;
+    background: rgba(128, 0, 0, 0.9);
+    border-radius: 10px;
+    padding: 10px;
+}
+.important-info-text {
+    padding-bottom: 10px;
+}
+.important-info-text h3 {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: x-large;
+}
+.important-info-text p {
+    color: white;
+    padding: 10px;
+    font-size: large;
+}
+.important-info-text a {
+    color: gold;
+}
+.important-info-text a:hover {
+    color: #E6E6E3;
+}
+
+
 
 
 /*
@@ -462,7 +496,7 @@ schedule page styling
     width: 100px;
     height: auto;
     float: left;
-    margin-left: 35%;
+    margin-left: 31%;
     padding: 10px;
     margin-right: 20px;
 
