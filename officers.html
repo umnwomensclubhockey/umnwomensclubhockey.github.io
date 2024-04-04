@@ -7,11 +7,30 @@
     <link rel="stylesheet" href="style.css"> 
     <link rel="icon" href="/images/logo-image.png">       
     <style>
+        .officer-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
         .officer-card img {
             width: 150px; /* Adjust the width as needed */
             height: 150px; /* Adjust the height as needed */
             object-fit: cover; /* This ensures the image retains its aspect ratio */
             border-radius: 50%; /* Makes the image round */
+            margin-bottom: 10px;
+        }
+
+        .officer-role {
+            margin: 0;
+            font-size: 1.2em;
+        }
+
+        .officer-name {
+            margin: 0;
+            font-weight: bold;
         }
     </style>
 </head>
@@ -32,74 +51,69 @@
         <a class="nav-items" href="roster.html">ROSTER</a>
         <a class="nav-items" href="about.html">ABOUT</a>
         <a class="nav-items" href="contact.html">CONTACT</a>
-    </div
+    </div>
 
 
-        <!-- bottom border -->
-        <hr class="hr-bottom">
+    <!-- bottom border -->
+    <hr class="hr-bottom">
 
+    <div class="contact-header">
+        <h3>If you would like to reach out to one of the the team officers, please reference the <span><a class="officer-contact-link" href="contact.html">Contact</a></span> page</h3>
+    </div>
 
-        <div class="contact-header">
-            <h3>If you would like to reach out to one of the the team officers, please reference the <span><a class="officer-contact-link" href="contact.html">Contact</a></span> page</h3>
-        </div>
+    <!-- Header -->
+    <div class="officer-header">
+        <h1>Team Officers</h1>
+    </div>
 
+    <!-- Officers -->
+    <div class="officer-card">
+        <img src="/images/23roster-pics/caitlyn.jpg">
+        <h2 class="officer-role">PRESIDENT</h2>
+        <p class="officer-name">Caitlyn Leising</p>
+    </div>
 
-        <!-- Header -->
-        <div class="officer-header">
-            <h1>Team Officers</h1>
-        </div>
+    <div class="officer-card">
+        <img src="/images/23roster-pics/laramie.jpg">
+        <h2 class="officer-role">VICE PRESIDENT</h2>
+        <p class="officer-name">Laramie Prell</p>
+    </div>
 
-        <!-- Officers -->
-        <div class="officer-card">
-            <img src="/images/23roster-pics/caitlyn.jpg">
-            <h2 class="officer-role">PRESIDENT</h2>
-            <p class="officer-name">Caitlyn Leising</p>
-        </div>
+    <div class="officer-card">
+        <img src="/images/23roster-pics/delaney.jpg">
+        <h2 class="officer-role">TREASURER</h2>
+        <p class="officer-name">Delaney Johnson</p>
+    </div>
 
-        <div class="officer-card">
-            <img src="/images/23roster-pics/laramie.jpg">
-            <h2 class="officer-role">VICE PRESIDENT</h2>
-            <p class="officer-name">Laramie Prell</p>
-        </div>
+    <div class="officer-card">
+        <img src="/images/23roster-pics/kailee.jpg">
+        <h2 class="officer-role">TRAVEL COORDINATOR</h2>
+        <p class="officer-name">Kailee Hoff</p>
+    </div>
 
-        <div class="officer-card">
-            <img src="/images/23roster-pics/delaney.jpg">
-            <h2 class="officer-role">TREASURER</h2>
-            <p class="officer-name">Delaney Johnson</p>
-        </div>
+    <div class="officer-card">
+        <img src="/images/23roster-pics/liv.jpg">
+        <h2 class="officer-role">SAFETY COORDINATOR</h2>
+        <p class="officer-name">Liv Carlson</p>
+    </div>
 
-        <div class="officer-card">
-            <img src="/images/23roster-pics/kailee.jpg">
-            <h2 class="officer-role">TRAVEL COORDINATOR</h2>
-            <p class="officer-name">Kailee Hoff</p>
-        </div>
+    <div class="officer-card">
+        <img src="/images/23roster-pics/crystal.jpg">
+        <h2 class="officer-role">FUNDRAISING COORDINATOR</h2>
+        <p class="officer-name">Crystal Gettman</p>
+    </div>
 
-        <div class="officer-card">
-            <img src="/images/23roster-pics/liv.jpg">
-            <h2 class="officer-role">SAFETY COORDINATOR</h2>
-            <p class="officer-name">Liv Carlson</p>
-        </div>
+    <div class="officer-card">
+        <img src="/images/23roster-pics/timberlyn.jpg">
+        <h2 class="officer-role">SOCIAL MEDIA MANAGER</h2>
+        <p class="officer-name">Timberlyn Mazeikis</p>
+    </div>
 
-        <div class="officer-card">
-            <img src="/images/23roster-pics/crystal.jpg">
-            <h2 class="officer-role">FUNDRAISING COORDINATOR</h2>
-            <p class="officer-name">Crystal Gettman</p>
-        </div>
+    <!-- copyright info on bottom -->
 
-        <div class="officer-card">
-            <img src="/images/23roster-pics/timberlyn.jpg">
-            <h2 class="officer-role">SOCIAL MEDIA MANAGER</h2>
-            <p class="officer-name">Timberlyn Mazeikis</p>
-        </div>
+    <hr class="bottom-separator">
 
-        <!-- copyright info on bottom -->
-
-        <hr class="bottom-separator">
-
-        <div id="copyright-container">
-            <p>© 2023 University Of Minnesota Women's Club Hockey</p>
-            <p>Proud Members of the ACHA</p>
-            <a href="https://www.achahockey.org"><img src="/images/acha.png" alt="ACHA logo"></a>
-        </div>
-    </body>
-</html>
+    <div id="copyright-container">
+        <p>© 2023 University Of Minnesota Women's Club Hockey</p>
+        <p>Proud Members of the ACHA</p>
+        <a href="https://www.achahockey.org"><img src="/images/acha.png" alt="ACHA logo"></
