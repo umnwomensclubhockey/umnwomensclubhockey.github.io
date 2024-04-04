@@ -1,107 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
-        <title>WOMENS CLUB HOCKEY - ROSTER</title>
-        <link rel="stylesheet" href="style.css">
-        <link rel="icon" href="/images/logo-image.png">
-        <style>
-            .circle-crop {
-                width: 75px;
-                height: 75px;
-                overflow: hidden;
-                border-radius: 50%;
-                position: relative;
-            }
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WOMENS CLUB HOCKEY - CONTACT</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/images/logo-image.png">
+    <style>
+        /* Common styles for contact cards */
+        .contact-card {
+            text-align: center;
+            padding: 20px;
+        }
 
-            .circle-crop img {
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-                object-position: center;
-                border-radius: 50%;
-            }
-        </style>
-    </head>
-    <body>
-        
-        <!-- header image and title -->
-        <div class="header">
-            <a href="index.html"><img src="images/logo-image.png" alt="Golden Gopher on ice"></a>
-            <a href="index.html"><h1 class="headingName">WOMEN'S CLUB HOCKEY</h1></a>
-        </div>
+        .contact-card img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
 
-        <!-- top border -->
-        <hr class="hr-top">
+        .contact-rank {
+            margin: 10px 0 5px;
+            font-size: 1.2em;
+        }
 
-        <!-- top nav links -->
-        <div class="nav-right">
-            <a class="nav-items" href="index.html">HOME</a>
-            <a class="nav-items" href="schedule.html">SCHEDULE</a>
-            <a class="nav-items" href="roster.html">ROSTER</a>
-            <a class="nav-items" href="about.html">ABOUT</a>
-            <a class="nav-items" id="selected" href="contact.html">CONTACT</a>
-        </div>
+        .contact-name {
+            margin: 5px 0;
+            font-weight: bold;
+        }
 
+        .contact-email {
+            display: block;
+            margin-top: 5px;
+            text-decoration: none;
+            color: #007bff; /* Blue color for email links */
+        }
 
-        <!-- bottom border -->
-        <hr class="hr-bottom">
+        /* Grid container styles */
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
 
+        /* Club email and interest form styles */
+        .email, .form {
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 10px;
+        }
 
-        
+        .email h3, .form h3 {
+            margin-top: 0;
+        }
 
-        <div class="grid-container">
-            <div class="pres-vp">
-                <!-- Contact Content -->
-                <!-- President name and info -->
-        
-                <div class="contact-card">
-                    <img src="/images/23roster-pics/caitlyn.jpg">
-                    <h3 class="contact-rank">President</h3>
-                    <p class="contact-name">Caitlyn Leising</p>
-                </div>
+        .email a, .form a {
+            text-decoration: none;
+            color: #007bff;
+            margin-top: 10px;
+            display: inline-block;
+        }
 
-                <div class="contact-card">
-                    <img class="contact-img" src="/images/roster-pics/doug coach.png" alt="Doug Melnyk">
-                    <h3 class="contact-rank">Head Coach</h3>
-                    <p class="contact-name">Doug Melnyk</p>
-                    <a class="contact-email" href="mailto:Melnykd@vikings.nfl.net">Melnykd@vikings.nfl.net</a>
-                </div>
+        .email a:hover, .form a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <!-- header image and title -->
+    <div class="header">
+        <a href="index.html"><img src="images/logo-image.png" alt="Golden Gopher on ice"></a>
+        <a href="index.html"><h1 class="headingName">WOMEN'S CLUB HOCKEY</h1></a>
+    </div>
 
-                <div class="contact-card">
-                    <img class="contact-img" src="/images/roster-pics/tim coach.png" alt="Tim Stevens">
-                    <h3 class="contact-rank">Coach</h3>
-                    <p class="contact-name">Tim Stevens</p>
-                    <a class="contact-email" href="mailto:timstevens191@hotmail.com">timstevens191@hotmail.com</a>
-                </div>
+    <!-- top border -->
+    <hr class="hr-top">
+
+    <!-- top nav links -->
+    <div class="nav-right">
+        <a class="nav-items" href="index.html">HOME</a>
+        <a class="nav-items" href="schedule.html">SCHEDULE</a>
+        <a class="nav-items" href="roster.html">ROSTER</a>
+        <a class="nav-items" href="about.html">ABOUT</a>
+        <a class="nav-items" id="selected" href="contact.html">CONTACT</a>
+    </div>
+
+    <!-- bottom border -->
+    <hr class="hr-bottom">
+
+    <div class="grid-container">
+        <!-- Contact Cards -->
+        <div class="pres-vp">
+            <div class="contact-card">
+                <img src="/images/23roster-pics/caitlyn.jpg">
+                <h3 class="contact-rank">President</h3>
+                <p class="contact-name">Caitlyn Leising</p>
             </div>
-
-
-            <div class="email-form">
-                <!-- Club Email -->
-                <div class="email">
-                    <h3 style="padding: 3px;">Club Email</h3>
-                    <a style="padding: 3px;" href="mailto:wohkyclb@umn.edu">wohkyclb@umn.edu</a>
-                    <p style="padding: 3px;">Questions should be sent to us through the club email.</p>
-                    <a style="padding: 3px;" href="mailto:wohkyclb@umn.edu">Click here to compose an email</a>
-                </div>
-                <!-- Interest form -->
-                <div class="form">
-                    <h3>Player Interest Form</h3>
-                    <p>Please fill out <a href="https://forms.gle/YzP99Frtpf9WRr8H8">this form</a> to indicate your interest in joining our club!</p>
-                </div>
+            <div class="contact-card">
+                <img src="/images/roster-pics/doug coach.png" alt="Doug Melnyk">
+                <h3 class="contact-rank">Head Coach</h3>
+                <p class="contact-name">Doug Melnyk</p>
+                <a class="contact-email" href="mailto:Melnykd@vikings.nfl.net">Melnykd@vikings.nfl.net</a>
+            </div>
+            <div class="contact-card">
+                <img src="/images/roster-pics/tim coach.png" alt="Tim Stevens">
+                <h3 class="contact-rank">Coach</h3>
+                <p class="contact-name">Tim Stevens</p>
+                <a class="contact-email" href="mailto:timstevens191@hotmail.com">timstevens191@hotmail.com</a>
             </div>
         </div>
 
-
-
-        <!-- copyright info on bottom -->
-        <hr class="bottom-separator">
-        <div id="copyright-container">
-            <p>© 2023 University Of Minnesota Women's Club Hockey</p>
-            <p>Proud Members of the ACHA</p>
-            <a href="https://www.achahockey.org"><img src="/images/acha.png" alt="ACHA logo"></a>
+        <!-- Club Email and Interest Form -->
+        <div class="email-form">
+            <!-- Club Email -->
+            <div class="email">
+                <h3>Club Email</h3>
+                <a href="mailto:wohkyclb@umn.edu">wohkyclb@umn.edu</a>
+                <p>Questions should be sent to us through the club email.</p>
+                <a href="mailto:wohkyclb@umn.edu">Click here to compose an email</a>
+            </div>
+            <!-- Interest form -->
+            <div class="form">
+                <h3>Player Interest Form</h3>
+                <p>Please fill out <a href="https://forms.gle/YzP99Frtpf9WRr8H8">this form</a> to indicate your interest in joining our club!</p>
+            </div>
         </div>
-    </body>
+    </div>
+
+    <!-- copyright info on bottom -->
+    <hr class="bottom-separator">
+    <div id="copyright-container">
+        <p>© 2023 University Of Minnesota Women's Club Hockey</p>
+        <p>Proud Members of the ACHA</p>
+        <a href="https://www.achahockey.org"><img src="/images/acha.png" alt="ACHA logo"></a>
+    </div>
+</body>
 </html>
